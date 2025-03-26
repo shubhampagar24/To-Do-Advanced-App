@@ -50,7 +50,7 @@ advanced-todo-app/
 
 ### 1️⃣ Clone the Repository
 ```sh
-git clone https://github.com/your-username/advanced-todo-app.git
+git clone https://github.com/shubhampagar24/To-Do-Advanced-App.git
 cd advanced-todo-app
 ```
 
