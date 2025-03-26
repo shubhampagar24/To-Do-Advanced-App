@@ -1,70 +1,107 @@
-# Getting Started with Create React App
+# Advanced To-Do List Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 📌 Project Overview
+This is an advanced To-Do List application built using **React.js, Redux, and Redux Thunk/Saga**. The application supports user authentication, allowing users to **sign up, log in, and manage tasks**. It provides a **responsive design with animations** and an **attractive UI**.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🚀 Features
 
-### `npm start`
+✅ **User Authentication** (Sign Up, Login, Logout)  
+✅ **Error Handling for Incorrect Login Credentials**  
+✅ **Task Management** (Add, Delete, and Prioritize Tasks)  
+✅ **Redux for State Management**  
+✅ **Redux Thunk/Saga for Async Actions**  
+✅ **Local Storage for Session Persistence**  
+✅ **Pagination, Sorting, and Filtering for Tasks**  
+✅ **Fully Responsive Design with Animations**  
+✅ **Deployment on Netlify, Vercel, or GitHub Pages**
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🛠️ Technologies Used
 
-### `npm test`
+- **Frontend**: React.js, Redux, Redux Thunk/Saga
+- **State Management**: Redux
+- **Styling**: CSS (Animations, Responsive UI)
+- **Routing**: React Router
+- **API Calls**: Fetch/Axios
+- **Deployment**: Netlify / Vercel / GitHub Pages
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 📂 Folder Structure
+```
+advanced-todo-app/
+│── src/
+│   ├── components/         # UI Components (TaskList, TaskInput, Navbar)
+│   ├── pages/              # Pages (Signup, Login, TaskPage)
+│   ├── redux/              # Redux State Management
+│   ├── App.js              # Main Application File
+│   ├── index.js            # Entry Point
+│── public/                 # Static Assets
+│── package.json            # Project Dependencies
+│── README.md               # Project Documentation
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## ⚙️ Installation and Setup
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 1️⃣ Clone the Repository
+```sh
+git clone https://github.com/your-username/advanced-todo-app.git
+cd advanced-todo-app
+```
 
-### `npm run eject`
+### 2️⃣ Install Dependencies
+```sh
+npm install  # or yarn install
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### 3️⃣ Run the Development Server
+```sh
+npm start  # or yarn start
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### 4️⃣ Build for Production
+```sh
+npm run build
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### 5️⃣ Deploy on Netlify / Vercel
+- Push the code to GitHub
+- Connect your repository to **Netlify** or **Vercel**
+- Deploy the site with a single click
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+## 🎨 Attractive UI & Animations
+The UI features a modern **gradient background, smooth animations, and transitions** for a seamless user experience.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```css
+body {
+    background: linear-gradient(120deg, #ff9a9e, #fad0c4);
+    transition: background 0.5s ease-in-out;
+}
+button:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 💡 Future Improvements
+- ✅ Dark Mode Support
+- ✅ Drag and Drop Task Reordering
+- ✅ Email Verification for Signup
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 🤝 Contributing
+Feel free to submit a PR or open an issue for suggestions!
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 📜 License
+This project is **open-source** and available under the **MIT License**.
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
